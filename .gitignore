@@ -1,0 +1,11 @@
+# Default: ignore everything
+*
+
+# Allow only image hosting tree
+!.gitignore
+!README.md
+!images/
+!images/**
+
+# Even within images/, exclude internal-only docs
+images/**/README.txt
